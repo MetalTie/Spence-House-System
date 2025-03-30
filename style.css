@@ -95,14 +95,16 @@ article{
     position: relative;
     border-radius: 10px;
     box-shadow: 5px 5px 15px black;
-    background-color: black;
+    background-color: white;
 }
 .card p, li{
     padding: 30px;
     border-radius: 10px;
     text-align:center;
+    color: black;
 }
 li{
+    list-style-type: none;
     padding: 10px;
 }
 .overlay{
@@ -163,6 +165,8 @@ li{
     padding: 4px 12px;
 }
 
+
+
 /* Footer Style */
 footer{
     height: 100%;
@@ -171,6 +175,7 @@ footer{
     text-align: center;
     padding: 20px 0px;
 }
+
 @media screen {
     
 }
