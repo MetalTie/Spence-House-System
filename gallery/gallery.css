@@ -1,4 +1,4 @@
-          *{
+*{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
@@ -40,11 +40,12 @@
     margin: 0 300px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .gallery img{
     margin: 8px;
-    width: 200px;
-    height: auto;
+    width: auto;
+    height: 200px;
     &:hover{
         cursor: zoom-in;
     }
